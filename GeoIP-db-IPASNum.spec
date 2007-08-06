@@ -6,7 +6,7 @@ Release:	1
 License:	OPEN DATA LICENSE (see LICENSE.txt)
 Group:		Applications/Databases
 Source0:	http://www.maxmind.com/download/geoip/database/asnum/GeoIPASNum.dat.gz
-# Source0-md5:	ce03b15a08e26c88ec2fd8f5c08f8e4b
+# Source0-md5:	27d7e96a9bf3f04acd71e674119f3601
 Source1:	http://www.maxmind.com/download/geoip/database/LICENSE.txt
 # Source1-md5:	8c0bc6e8ebe6ec3bc1580021edb4bba1
 URL:		http://www.maxmind.com/app/asnum
