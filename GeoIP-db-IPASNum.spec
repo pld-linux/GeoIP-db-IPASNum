@@ -2,7 +2,7 @@ Summary:	GeoLite IPASNum - IP to AS number translation database for GeoIP
 Summary(pl.UTF-8):	GeoLite IPASNum - baza danych tłumaczeń adresów IP na numery AS dla GeoIP
 Name:		GeoIP-db-IPASNum
 # Updated every month:
-Version:	2012.09.04
+Version:	2012.09.03
 Release:	1
 License:	OPEN DATA LICENSE (see LICENSE.txt)
 Group:		Applications/Databases
@@ -36,7 +36,7 @@ cp -p %{SOURCE1} .
 
 gunzip GeoIPASNum.dat.gz
 
-ver=$(stat -c '%y' GeoIPASNum.dat | awk '{print $1}' | tr - .)
+ver=$(TZ=GMT stat -c '%y' GeoIPASNum.dat | awk '{print $1}' | tr - .)
 if [ "$ver" != %{version} ]; then
 	exit 1
 fi
