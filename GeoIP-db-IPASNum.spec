@@ -6,7 +6,7 @@ Version:	2014.12.01
 Release:	1
 License:	CC 3.0 BY-SA
 Group:		Applications/Databases
-Source0:	http://www.maxmind.com/download/geoip/database/asnum/GeoIPASNum.dat.gz
+Source0:	http://download.maxmind.com/download/geoip/database/asnum/GeoIPASNum.dat.gz
 # Source0-md5:	b13dfb7270b9b8e3ef6dbe313fc24d96
 URL:		http://dev.maxmind.com/geoip/legacy/geolite/
 Requires:	GeoIP-libs
