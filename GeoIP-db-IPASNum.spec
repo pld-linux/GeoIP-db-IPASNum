@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	GeoLite IPASNum - baza danych tłumaczeń adresów IP na nume
 Name:		GeoIP-db-IPASNum
 # Updated every month:
 Version:	2016.01.04
-Release:	1
+Release:	2
 License:	CC 3.0 BY-SA
 Group:		Applications/Databases
 Source0:	http://download.maxmind.com/download/geoip/database/asnum/GeoIPASNum.dat.gz?/GeoIPASNum-%{version}.dat.gz
@@ -29,8 +29,7 @@ przez MaxWind, dostępne z <http://www.maxwind.com/>.
 
 %prep
 %setup -qcT
-cp -p %{SOURCE0} .
-
+cp -p %{SOURCE0} GeoIPASNum.dat.gz
 gunzip GeoIPASNum.dat.gz
 
 ver=$(TZ=GMT stat -c '%y' GeoIPASNum.dat | awk '{print $1}' | tr - .)
