@@ -25,7 +25,7 @@ Ten pakiet zawiera bazę danych tłumaczeń adresów IPv4 na numery AS dla
 GeoIP.
 
 Informacja licencyjna: ten produkt zawiera dane GeoLite stworzone
-przez MaxWind, dostępne z <http://www.maxwind.com/>.
+przez MaxMind, dostępne z <http://www.maxmind.com/>.
 
 %prep
 %setup -qcT
