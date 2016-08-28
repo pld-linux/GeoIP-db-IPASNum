@@ -2,12 +2,12 @@ Summary:	GeoLite IPASNum - IP to AS number translation database for GeoIP
 Summary(pl.UTF-8):	GeoLite IPASNum - baza danych tłumaczeń adresów IP na numery AS dla GeoIP
 Name:		GeoIP-db-IPASNum
 # Updated every month:
-Version:	2016.08.22
+Version:	2016.08.28
 Release:	1
 License:	CC 3.0 BY-SA
 Group:		Applications/Databases
 Source0:	http://download.maxmind.com/download/geoip/database/asnum/GeoIPASNum.dat.gz?/GeoIPASNum-%{version}.dat.gz
-# Source0-md5:	545ca4491ddf818ca42fa106072e8b5e
+# Source0-md5:	162d20735dd59980ac1c63cdd15d10b1
 URL:		http://dev.maxmind.com/geoip/legacy/geolite/
 Requires:	GeoIP-libs
 BuildArch:	noarch
